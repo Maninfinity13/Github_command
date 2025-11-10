@@ -42,6 +42,11 @@ git merge feature-login -->
 git pull origin main          # ดึงการเปลี่ยนแปลงล่าสุดจาก remote main
 
 git checkout feature-login    # สลับไปทำงานบน branch ของ feature
+-------------------------------------------
+git stash
+git stash pop
+
+
 git add .                     # stage การเปลี่ยนแปลง
 git commit -m "เพิ่มระบบ login"
 git checkout main             # กลับไป main
